@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(36, 48, 150);
+}
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color: rgb(22, 61, 219);
+    transition: 0.3s;
+}
+.nav-item{
+    color:black;
+    font-weight: 500;
+    padding-left: 35px;
+}
+.bt0{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    color:black;
+    border: 2px solid black;
+    transition: all 0.4s;
+    background-color:transparent;
+   
+}
+.bt0:hover{
+    transition: all 0.4s;
+    color:blue;
+    border: rgb(22, 61, 219);
+    outline: none;
+}
+.bt1{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    color:black;
+    border: 2px solid black;
+    transition: all 0.4s;
+    background-color:transparent;
+}
+.bt1:hover{
+    transition: all 0.4s;
+    color: rgb(22, 61, 219);
+    border: rgb(22, 61, 219);
+    outline: none;
+}
+
+.main{
+    padding: 100px;   
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+.main h3{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(7,7,78);
+}
+.main input{
+    height: 71px;
+    width: 50%;
+    border: 2px solid dimgrey;
+    outline: none;
+    padding: 15px;
+}
+.bt2{
+    height: 70px;
+    width: 25%;
+    background-color: dimgrey;
+    color: white;
+    border: 2px solid dimgrey;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4ms;
+    margin-left: -4px;
+}
+
+.body1 {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.header1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section1 {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 140px;
+}
+
+.form-group{
+    margin-bottom:30px;
+    padding: 80px;
+    width: 25%;
+    margin:auto;
+}
