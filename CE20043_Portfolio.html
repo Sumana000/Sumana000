@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farzana Yeasmin Sumana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        .left {
+
+            font-size: 1.3rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+            margin: 30px 0;
+
+        }
+
+        .rightSection img {
+
+            width: 80%;
+            margin: 50px 0;
+
+
+        }
+
+        .purple {
+
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Farzana's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+
+                Hi, My name is <span class="purple">Farzana</span>
+                <div> and I am a </div>
+
+                <span id="element"></span>
+
+            </div>
+            <div class="rightSection">
+                <img src="dev.png">
+            </div>
+
+        </section>
+
+        <section class="secondSection">
+
+            <h1>
+                
+            </h1>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
